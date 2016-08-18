@@ -24,6 +24,7 @@ import java.util.Map;
 import xml.org.imageloaderdemo.R;
 import xml.org.imageloaderdemo.adapter.HeaderAndFooterRecyclerViewAdapter;
 import xml.org.imageloaderdemo.adapter.MessageAdapter;
+import xml.org.imageloaderdemo.util.ImageLoaderUtil;
 import xml.org.imageloaderdemo.util.ServerApi;
 
 public class MainActivity extends BaseActivity {
@@ -36,6 +37,8 @@ public class MainActivity extends BaseActivity {
     private HeaderAndFooterRecyclerViewAdapter headerAndFooterRecyclerViewAdapter = null;
     private LinearLayoutManager mLinearLayoutManager;
     private MessageAdapter mAdapter;
+    public static ImageLoaderUtil IMAGELOADERUTIL = new ImageLoaderUtil();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

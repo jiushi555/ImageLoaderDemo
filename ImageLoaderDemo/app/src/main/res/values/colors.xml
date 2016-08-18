@@ -5,4 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
+    <color name="colorTopBar">#fda52b</color>
+    <color name="colorGray">#BEBEBE</color>
+    <color name="color_ff">#F0F0F0</color>
+
 </resources>

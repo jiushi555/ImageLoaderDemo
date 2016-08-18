@@ -12,10 +12,11 @@ import android.widget.TextView;
 import java.util.List;
 import java.util.Map;
 
-import xml.org.today.R;
-import xml.org.today.activity.MainActivity;
-import xml.org.today.util.DateFormatUtil;
-import xml.org.today.util.ServerApi;
+import xml.org.imageloaderdemo.R;
+import xml.org.imageloaderdemo.activity.MainActivity;
+import xml.org.imageloaderdemo.util.DateFormatUtil;
+import xml.org.imageloaderdemo.util.ServerApi;
+
 
 /**
  * Created by Administrator on 2016/8/3.
